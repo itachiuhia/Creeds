@@ -1,0 +1,9 @@
+<application>
+  <component name="UISettings">
+    <option name="FONT_FACE" value="MS Reference Sans Serif" />
+    <option name="FONT_SIZE" value="13" />
+    <option name="HIDE_TOOL_STRIPES" value="false" />
+    <option name="SHOW_MAIN_TOOLBAR" value="true" />
+    <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
+  </component>
+</application>
