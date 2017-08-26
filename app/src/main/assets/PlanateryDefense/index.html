@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" manifest="app.manifest"> 
+<head>
+		<title>Planetary Defense</title>
+		<meta charset="utf-8">
+		
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<meta name="title" content="Planetary Defense" />
+		<meta name="description" content="Planetary Defense Game for gamers using html5" />
+		
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		
+		<link rel="image_src" href="image/capture.html" />
+		
+		<link href="reset.css" rel="stylesheet" media="screen" />
+		<link href="main.css" rel="stylesheet" media="screen" />
+		<link href="../MainScreen/css/bootstrap.css" rel="stylesheet" media="screen" />
+
+
+    </head>
+    <body id="game">
+		<div id="status" class="ui">
+		</div>
+		
+		<div id="panels">
+			<div id="message" class="ui">
+				<h2 id="title">Planetary Defense</h2>
+				<!--Protect your planetoid from attackers.-->
+				<div class="manualnumber">
+					<div><span class="outdent">1.</span><p>Click or touch to shoot from the satellite.</p></div>
+					<div><span class="outdent">2.</span><p>Explode projectiles in front of bombs.</p></div>
+					<div><span class="outdent">3.</span><p>Press touch two fingers for emergency shield.</p></div>
+				</div>
+				    Your gun can overheat and must cool down before firing again.
+				<div id="startButton">Start</div>
+			</div>
+		</div>
+		
+		<canvas id="world">
+			<p class="no-canvas">
+				You need a <a href="http://www.google.com/chrome">modern browser</a> to view this.
+			</p>
+		</canvas>
+		<canvas id="background"></canvas>
+	          <input id="soundButton" type="image" src="soundoff.gif" alt="submit" name="submit" /> 
+		<script src="pd.js"></script>
+		<!-- JavaScripts -->
+        <script src="../MainScreen/js/jquery-1.11.1.min.js"></script>
+        <script src="../MainScreen/js/bootstrap.min.js"></script>
+    </body>
+</html>
